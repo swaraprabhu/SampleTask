@@ -1,9 +1,9 @@
 ### Description
 The purpose of this task is to test your general knowledge of C#, WPF, Git/GitHub and OOP. Furthermore, it tests your knowledge level of [RhinoCommon SDK](https://developer.rhino3d.com/guides/rhinocommon/what-is-rhinocommon/) or your learning skills and ability to understand documentation.
 
-1 Fork this project
-2 Complete the task
-3 Create a pull request to this main project's main branch
+1. Fork this project
+2. Complete the task
+3. Create a pull request to this main project's main branch
 
 ### Task
 This project contains a Rhino plugin with some util classes and `Command` class. The `CreateLineCommand` asks user to input two points and creates rectangular profile sweep on that line.
