@@ -1,0 +1,19 @@
+﻿<Window x:Class="IbeamPluginProject.Window1"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:IbeamPluginProject"
+        mc:Ignorable="d"
+        Title="Window1" Height="450" Width="800">
+    <Grid>
+        <Label x:Name="Label1" Content="Enter the Height" HorizontalAlignment="Left" Margin="70,94,0,0" VerticalAlignment="Top" Height="25" Width="178"/>
+        <TextBox x:Name="txtheight" HorizontalAlignment="Left" Height="25" Margin="244,94,0,0" TextWrapping="Wrap" Text="Height" VerticalAlignment="Top" Width="156" RenderTransformOrigin="0.924,0.638"/>
+        <Label x:Name="label2" Content="Enter the Width" HorizontalAlignment="Left" Margin="70,156,0,0" VerticalAlignment="Top" Height="29" Width="104"/>
+        <TextBox x:Name="txtwidth" HorizontalAlignment="Left" Height="29" Margin="248,156,0,0" TextWrapping="Wrap" Text="Width" VerticalAlignment="Top" Width="152"/>
+        <Label Content="Enter the thickness" HorizontalAlignment="Left" Margin="70,215,0,0" VerticalAlignment="Top" Width="116"/>
+        <TextBox x:Name="txtthickness" HorizontalAlignment="Left" Margin="244,223,0,0" TextWrapping="Wrap" Text="Thickness" VerticalAlignment="Top" Width="156" RenderTransformOrigin="-0.002,0.401" Height="32"/>
+        <Button x:Name="ok_button" Content="OK" HorizontalAlignment="Left" Margin="183,309,0,0" VerticalAlignment="Top" Height="31" Width="93" Click="Button_Click"/>
+
+    </Grid>
+</Window>
